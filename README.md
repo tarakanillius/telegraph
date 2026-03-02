@@ -1,0 +1,4 @@
+- brew install node
+- npm install expo
+- npx install
+- npx expo start 
