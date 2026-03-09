@@ -1,9 +1,14 @@
-import { View, Text, StyleSheet } from 'react-native';
-
+import React from 'react';
+import {StyleSheet, View} from 'react-native';
+import {GlassButton} from "@/components/GlassButton";
+import {SafeAreaView} from "react-native-safe-area-context";
 export default function Tab() {
     return (
         <View style={styles.container}>
-            <Text>Chats</Text>
+
+            <SafeAreaView>
+                <GlassButton title={"test"}/>
+            </SafeAreaView>
         </View>
     );
 }
@@ -11,7 +16,11 @@ export default function Tab() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        backgroundColor: '#434343'
+    },
+    backgroundImage: {
+        ...StyleSheet.absoluteFillObject,
+        width: '100%',
+        height: '100%',
     },
 });

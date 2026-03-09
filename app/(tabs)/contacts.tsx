@@ -1,9 +1,8 @@
-import { View, Text, StyleSheet } from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
 export default function Tab() {
     return (
         <View style={styles.container}>
-            <Text>Contacts</Text>
         </View>
     );
 }
@@ -13,5 +12,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: 'red'
     },
 });

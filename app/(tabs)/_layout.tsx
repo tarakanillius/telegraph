@@ -13,7 +13,7 @@ export default function TabLayout() {
             </NativeTabs.Trigger>
             <NativeTabs.Trigger name="index">
                 <Label>Chats</Label>
-                <Badge>326+</Badge>
+                <Badge>3</Badge>
                 <Icon sf="message.fill" drawable="custom_message_drawable" />
             </NativeTabs.Trigger>
             <NativeTabs.Trigger name="settings">
